@@ -7,25 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2315855E21023E51006AE508 /* HRBookPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2315855D21023E51006AE508 /* HRBookPageViewController.m */; };
+		23B2055120D84721000B9B35 /* walk.gif in Resources */ = {isa = PBXBuildFile; fileRef = 23B2055020D84721000B9B35 /* walk.gif */; };
 		23CC1A6E20D4511B00AB6E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC1A6D20D4511B00AB6E51 /* AppDelegate.m */; };
-		23CC1A7120D4511B00AB6E51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC1A7020D4511B00AB6E51 /* ViewController.m */; };
+		23CC1A7120D4511B00AB6E51 /* HRMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC1A7020D4511B00AB6E51 /* HRMenuViewController.m */; };
 		23CC1A7420D4511B00AB6E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CC1A7220D4511B00AB6E51 /* Main.storyboard */; };
 		23CC1A7620D4511C00AB6E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CC1A7520D4511C00AB6E51 /* Assets.xcassets */; };
 		23CC1A7920D4511C00AB6E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CC1A7720D4511C00AB6E51 /* LaunchScreen.storyboard */; };
 		23CC1A7C20D4511C00AB6E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC1A7B20D4511C00AB6E51 /* main.m */; };
+		23CC1A8420D4714F00AB6E51 /* HRCameraSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC1A8320D4714F00AB6E51 /* HRCameraSceneViewController.m */; };
+		23CC1A8720D472AB00AB6E51 /* HRBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC1A8620D472AB00AB6E51 /* HRBaseNavigationController.m */; };
+		23E8B9D1210E9078002FCCBE /* bg-transparent.gif in Resources */ = {isa = PBXBuildFile; fileRef = 23E8B9D0210E9078002FCCBE /* bg-transparent.gif */; };
+		BAB9E43147C88C298086404C /* libPods-HIRO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B372C2F7B256C612F8E2AA /* libPods-HIRO.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2315855C21023E51006AE508 /* HRBookPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRBookPageViewController.h; sourceTree = "<group>"; };
+		2315855D21023E51006AE508 /* HRBookPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRBookPageViewController.m; sourceTree = "<group>"; };
+		23B2055020D84721000B9B35 /* walk.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = walk.gif; sourceTree = "<group>"; };
 		23CC1A6920D4511B00AB6E51 /* HIRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIRO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CC1A6C20D4511B00AB6E51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23CC1A6D20D4511B00AB6E51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23CC1A6F20D4511B00AB6E51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23CC1A7020D4511B00AB6E51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23CC1A6F20D4511B00AB6E51 /* HRMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRMenuViewController.h; sourceTree = "<group>"; };
+		23CC1A7020D4511B00AB6E51 /* HRMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRMenuViewController.m; sourceTree = "<group>"; };
 		23CC1A7320D4511B00AB6E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23CC1A7520D4511C00AB6E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23CC1A7820D4511C00AB6E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23CC1A7A20D4511C00AB6E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23CC1A7B20D4511C00AB6E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23CC1A8220D4714F00AB6E51 /* HRCameraSceneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRCameraSceneViewController.h; sourceTree = "<group>"; };
+		23CC1A8320D4714F00AB6E51 /* HRCameraSceneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRCameraSceneViewController.m; sourceTree = "<group>"; };
+		23CC1A8520D472AB00AB6E51 /* HRBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRBaseNavigationController.h; sourceTree = "<group>"; };
+		23CC1A8620D472AB00AB6E51 /* HRBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRBaseNavigationController.m; sourceTree = "<group>"; };
+		23E8B9D0210E9078002FCCBE /* bg-transparent.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "bg-transparent.gif"; sourceTree = "<group>"; };
+		7B9EAB806A1566A80FCC60CE /* Pods-HIRO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIRO.release.xcconfig"; path = "Pods/Target Support Files/Pods-HIRO/Pods-HIRO.release.xcconfig"; sourceTree = "<group>"; };
+		83B372C2F7B256C612F8E2AA /* libPods-HIRO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HIRO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8079098840D1B0B9254F36 /* Pods-HIRO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIRO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HIRO/Pods-HIRO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB9E43147C88C298086404C /* libPods-HIRO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,8 @@
 			children = (
 				23CC1A6B20D4511B00AB6E51 /* HIRO */,
 				23CC1A6A20D4511B00AB6E51 /* Products */,
+				D3CFD524D40F8EED2C85F8B3 /* Pods */,
+				7A0AF09ABB4CEE8E341AA170 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +78,18 @@
 		23CC1A6B20D4511B00AB6E51 /* HIRO */ = {
 			isa = PBXGroup;
 			children = (
+				23E8B9D0210E9078002FCCBE /* bg-transparent.gif */,
+				23B2055020D84721000B9B35 /* walk.gif */,
 				23CC1A6C20D4511B00AB6E51 /* AppDelegate.h */,
 				23CC1A6D20D4511B00AB6E51 /* AppDelegate.m */,
-				23CC1A6F20D4511B00AB6E51 /* ViewController.h */,
-				23CC1A7020D4511B00AB6E51 /* ViewController.m */,
+				23CC1A6F20D4511B00AB6E51 /* HRMenuViewController.h */,
+				23CC1A7020D4511B00AB6E51 /* HRMenuViewController.m */,
+				2315855C21023E51006AE508 /* HRBookPageViewController.h */,
+				2315855D21023E51006AE508 /* HRBookPageViewController.m */,
+				23CC1A8220D4714F00AB6E51 /* HRCameraSceneViewController.h */,
+				23CC1A8320D4714F00AB6E51 /* HRCameraSceneViewController.m */,
+				23CC1A8520D472AB00AB6E51 /* HRBaseNavigationController.h */,
+				23CC1A8620D472AB00AB6E51 /* HRBaseNavigationController.m */,
 				23CC1A7220D4511B00AB6E51 /* Main.storyboard */,
 				23CC1A7520D4511C00AB6E51 /* Assets.xcassets */,
 				23CC1A7720D4511C00AB6E51 /* LaunchScreen.storyboard */,
@@ -71,6 +99,23 @@
 			path = HIRO;
 			sourceTree = "<group>";
 		};
+		7A0AF09ABB4CEE8E341AA170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B372C2F7B256C612F8E2AA /* libPods-HIRO.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3CFD524D40F8EED2C85F8B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE8079098840D1B0B9254F36 /* Pods-HIRO.debug.xcconfig */,
+				7B9EAB806A1566A80FCC60CE /* Pods-HIRO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23CC1A7F20D4511C00AB6E51 /* Build configuration list for PBXNativeTarget "HIRO" */;
 			buildPhases = (
+				3528076FD1C17487088E1429 /* [CP] Check Pods Manifest.lock */,
 				23CC1A6520D4511B00AB6E51 /* Sources */,
 				23CC1A6620D4511B00AB6E51 /* Frameworks */,
 				23CC1A6720D4511B00AB6E51 /* Resources */,
+				E04D22A2A71C1F0CA584B24E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,21 +175,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E8B9D1210E9078002FCCBE /* bg-transparent.gif in Resources */,
 				23CC1A7920D4511C00AB6E51 /* LaunchScreen.storyboard in Resources */,
 				23CC1A7620D4511C00AB6E51 /* Assets.xcassets in Resources */,
+				23B2055120D84721000B9B35 /* walk.gif in Resources */,
 				23CC1A7420D4511B00AB6E51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3528076FD1C17487088E1429 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HIRO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04D22A2A71C1F0CA584B24E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HIRO/Pods-HIRO-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HIRO/Pods-HIRO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23CC1A6520D4511B00AB6E51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CC1A7120D4511B00AB6E51 /* ViewController.m in Sources */,
+				2315855E21023E51006AE508 /* HRBookPageViewController.m in Sources */,
+				23CC1A8420D4714F00AB6E51 /* HRCameraSceneViewController.m in Sources */,
+				23CC1A7120D4511B00AB6E51 /* HRMenuViewController.m in Sources */,
 				23CC1A7C20D4511C00AB6E51 /* main.m in Sources */,
+				23CC1A8720D472AB00AB6E51 /* HRBaseNavigationController.m in Sources */,
 				23CC1A6E20D4511B00AB6E51 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,35 +382,39 @@
 		};
 		23CC1A8020D4511C00AB6E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8079098840D1B0B9254F36 /* Pods-HIRO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3939LRJ2J8;
 				INFOPLIST_FILE = HIRO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gabejacobs.HIRO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		23CC1A8120D4511C00AB6E51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9EAB806A1566A80FCC60CE /* Pods-HIRO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3939LRJ2J8;
 				INFOPLIST_FILE = HIRO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gabejacobs.HIRO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
