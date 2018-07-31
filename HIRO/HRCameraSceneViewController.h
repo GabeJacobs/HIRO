@@ -20,7 +20,6 @@
 @property (nonatomic, strong) LLSimpleCamera *camera;
 
 @property (nonatomic, assign) NSTimeInterval videoInterval;
-@property (nonatomic, strong) FastttCamera *fastCamera;
 @property (nonatomic, strong) UIImagePickerController *picker;
 @property (nonatomic, strong) UILabel *timeLeft;
 @property (nonatomic) int currentTime;
@@ -28,10 +27,7 @@
 @property (strong, nonatomic) NSURL *videoURL;
 @property (strong, nonatomic) MPMoviePlayerController *videoController;
 
-@property (strong, nonatomic) GPUImageVideoCamera *videoCamera;
-@property (nonatomic) GPUImageOutput<GPUImageInput> *filter;
-@property (strong, nonatomic) GPUImageMovieWriter *movieWriter;
-
+@property (strong, nonatomic) UIImageView *firstFrameView;
 
 
 

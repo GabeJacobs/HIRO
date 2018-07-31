@@ -74,13 +74,17 @@
     
     self.camera = [[LLSimpleCamera alloc] init];
     self.camera =  [[LLSimpleCamera alloc] initWithVideoEnabled:YES];
-    self.camera = [[LLSimpleCamera alloc] initWithQuality:AVCaptureSessionPresetHigh
+    self.camera = [[LLSimpleCamera alloc] initWithQuality:AVCaptureSessionPresetPhoto
                                                  position:LLCameraPositionRear
                                              videoEnabled:YES];
     // attach to the view
     [self.camera attachToViewController:self withFrame:CGRectMake(0, 0, screenRect.size.width, screenRect.size.height)];
 
     [self.camera start];
+    
+    self.firstFrameView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"TEST"]];
+    self.firstFrameView.frame = self.view.frame;
+    [self.view addSubview:self.firstFrameView];
 }
 
 
