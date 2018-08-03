@@ -10,4 +10,15 @@
 
 @interface HRBookPageViewController : UIViewController
 
+- (instancetype)initWithPage:(int)pageNumber;
+
+@property (nonatomic) int pageNumber;
+@property (strong, nonatomic) UIView *backgroundView;
+
+@property (strong, nonatomic) UIImageView *backgroundImage;
+@property (strong, nonatomic) UIImageView *pageText;
+
+@property (strong, nonatomic) UIButton *nextPageButton;
+@property (strong, nonatomic) UIButton *prevPageButton;
+
 @end

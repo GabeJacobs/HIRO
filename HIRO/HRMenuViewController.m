@@ -26,8 +26,8 @@
     [self.view.layer insertSublayer:gradient atIndex:0];
     
     self.titleLabel = [[UILabel alloc] init];
-    self.titleLabel.text = @"Hiro";
-    self.titleLabel.font = [UIFont fontWithName:@"Noteworthy-Light" size:135.0f];
+    self.titleLabel.text = @"THREE LITTLE PIGS";
+    self.titleLabel.font = [UIFont fontWithName:@"Noteworthy-Light" size:85.0f];
     self.titleLabel.textColor = [UIColor whiteColor];
     [self.titleLabel sizeToFit];
     self.titleLabel.frame = CGRectMake(self.view.frame.size.width/2 - self.titleLabel.frame.size.width/2 , 125, self.titleLabel.frame.size.width, self.titleLabel.frame.size.height);
@@ -71,11 +71,11 @@
 }
 
 - (void)tappedStart {
-//    HRBookPageViewController *pageOne = [[HRBookPageViewController alloc] init];
-//    [self.navigationController pushViewController:pageOne animated:YES];
+    HRBookPageViewController *pageOne = [[HRBookPageViewController alloc] initWithPage:1];
+    [self.navigationController pushViewController:pageOne animated:YES];
 
-        HRCameraSceneViewController *cameraPage = [[HRCameraSceneViewController alloc] init];
-        [self.navigationController pushViewController:cameraPage animated:YES];
+//        HRCameraSceneViewController *cameraPage = [[HRCameraSceneViewController alloc] init];
+//        [self.navigationController pushViewController:cameraPage animated:YES];
 
 
 }
