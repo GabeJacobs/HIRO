@@ -18,6 +18,7 @@
 		23CC1A8420D4714F00AB6E51 /* HRCameraSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC1A8320D4714F00AB6E51 /* HRCameraSceneViewController.m */; };
 		23CC1A8720D472AB00AB6E51 /* HRBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC1A8620D472AB00AB6E51 /* HRBaseNavigationController.m */; };
 		23E8B9D1210E9078002FCCBE /* bg-transparent.gif in Resources */ = {isa = PBXBuildFile; fileRef = 23E8B9D0210E9078002FCCBE /* bg-transparent.gif */; };
+		A98DD5A82114E15600CE33CD /* SCENE1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A98DD5A72114E15500CE33CD /* SCENE1.gif */; };
 		BAB9E43147C88C298086404C /* libPods-HIRO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B372C2F7B256C612F8E2AA /* libPods-HIRO.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		23E8B9D0210E9078002FCCBE /* bg-transparent.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "bg-transparent.gif"; sourceTree = "<group>"; };
 		7B9EAB806A1566A80FCC60CE /* Pods-HIRO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIRO.release.xcconfig"; path = "Pods/Target Support Files/Pods-HIRO/Pods-HIRO.release.xcconfig"; sourceTree = "<group>"; };
 		83B372C2F7B256C612F8E2AA /* libPods-HIRO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HIRO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98DD5A72114E15500CE33CD /* SCENE1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SCENE1.gif; sourceTree = "<group>"; };
 		CE8079098840D1B0B9254F36 /* Pods-HIRO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIRO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HIRO/Pods-HIRO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 		23CC1A6B20D4511B00AB6E51 /* HIRO */ = {
 			isa = PBXGroup;
 			children = (
+				A98DD5A72114E15500CE33CD /* SCENE1.gif */,
 				23E8B9D0210E9078002FCCBE /* bg-transparent.gif */,
 				23B2055020D84721000B9B35 /* walk.gif */,
 				23CC1A6C20D4511B00AB6E51 /* AppDelegate.h */,
@@ -176,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E8B9D1210E9078002FCCBE /* bg-transparent.gif in Resources */,
+				A98DD5A82114E15600CE33CD /* SCENE1.gif in Resources */,
 				23CC1A7920D4511C00AB6E51 /* LaunchScreen.storyboard in Resources */,
 				23CC1A7620D4511C00AB6E51 /* Assets.xcassets in Resources */,
 				23B2055120D84721000B9B35 /* walk.gif in Resources */,
